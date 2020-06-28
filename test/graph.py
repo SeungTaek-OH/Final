@@ -1,4 +1,6 @@
 from cgi import parse_qs
+import matplatlib as mpl
+mpl.use('Agg')
 from template import html
 import matplotlib.pyplot as plt
 
